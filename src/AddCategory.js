@@ -21,7 +21,7 @@ function AddCategory() {
       });
       if (response.ok) {
         const responseData = await response.json();
-        console.log(formData)
+        console.log(formData);
       }
       else {
         console.error('No Response');
