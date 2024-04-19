@@ -8,6 +8,7 @@ import Admin from './Admin';
 import AddProduct from './AddProduct'
 import View from './View'
 import Update from './Update'
+import AllProducts from './AllProducts';
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
       <Route path='update' element={<Update/>}></Route>
       <Route path='admin' element={<Admin/>}></Route>
       <Route path='addProduct' element={<AddProduct/>}></Route>
+      <Route path='allproduct' element={<AllProducts/>}></Route>
     </Routes>
     </BrowserRouter>
     </>
