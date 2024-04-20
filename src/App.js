@@ -9,6 +9,8 @@ import AddProduct from './AddProduct'
 import View from './View'
 import Update from './Update'
 import AllProducts from './AllProducts';
+import Landing from './Landing';
+import Login from './Login';
 
 function App() {
 
@@ -16,7 +18,9 @@ function App() {
     <>
     <BrowserRouter>
     <Routes>
-      <Route path='/' element={<Main/>}></Route>
+      <Route path='/' element={<Landing/>}></Route>
+      <Route path='main' element={<Main/>}></Route>
+      <Route path='login' element={<Login/>}></Route>
       <Route path='product' element={<Product/>}></Route>
       <Route path='category' element={<Category/>}></Route>
       <Route path='addcategory' element={<AddCategory/>}></Route>
