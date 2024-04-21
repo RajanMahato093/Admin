@@ -33,6 +33,7 @@ body {
     top: 52px;
     padding: 3px 0px;
     justify-content: space-between;
+    align-items: center;
   }
   
   .navbar a {

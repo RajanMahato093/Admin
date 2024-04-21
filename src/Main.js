@@ -84,30 +84,6 @@ function Main() {
   }
   const handle3 = async (e) =>{
     e.preventDefault();
-    // const var1 = {
-    //   uId: "Tanay",
-    //   pId: "004",
-    //   quantity: 1
-    // }
-    // try {
-    //   const response = await fetch('https://localhost:3001/', {
-    //     mode: 'cors',
-    //     method: 'POST',
-    //     headers: {
-    //       'Content-Type': 'application/json',
-    //     },
-    //     body: JSON.stringify(var1),
-    //   });
-    //   if (response.ok) {
-    //     const responseData = await response.json();
-    //     console.log(responseData);
-    //   }
-    //   else {
-    //     console.error('No Response');
-    //   }
-    // } catch (error) {
-    //   console.error('Error sending data:', error);
-    // }
     window.location.href = 'allproduct'
   }
 

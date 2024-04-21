@@ -1,7 +1,16 @@
 import React from 'react'
 import './Product.css';
+import freq from './Fetchreq';
+
+
 function Landing() {
+    const products = freq("GET","home")
+    console.log(products);
     return (
+        <div>
+        {!products ? (
+            <h1>Loading...</h1>
+          ) : (products.length)}
         <div>
             <header>
                 <p>BUY 1 GET FREE 1 !!</p>
@@ -167,6 +176,7 @@ function Landing() {
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     )
 }
