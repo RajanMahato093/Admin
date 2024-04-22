@@ -22,6 +22,10 @@ body {
     background-position: center;
     align-items: center;
   }
+    
+  .cover {
+    height: 350px;
+  }
   
   .navbar {
     background: transparent;
@@ -87,10 +91,6 @@ body {
     align-items: center;
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
-  }
-  
-  .cover {
-    height: 400px;
   }
   
   .categories {
