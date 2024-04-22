@@ -107,11 +107,11 @@ body {
   }
   
   .card-slider {
-    height: 400px;
+    height: 100%;
     width: 100%;
     display: flex;
     overflow-x: scroll;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-direction: row;
   }
   .card-slider::-webkit-scrollbar{
