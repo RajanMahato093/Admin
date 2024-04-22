@@ -27,14 +27,14 @@ function Landing() {
                     </ul>
                 </div>
                 <div className="background">
-                    <img src="../images/bg.png" className="cover" alt='' />
+                    <img src='/images/bg.png' className="cover" alt='' />
                 </div>
                 <div className="categories">
                     <h2 className="fc">FEATURED COLLECTION</h2>
                     <div className="card-slider">
                         <div className="content">
                             <div className="card">
-                                <img src="images/bg2.jpg" className="card-image" alt='' />
+                                <img src="/images/bg2.jpg" className="card-image" alt='' />
                                 <div className="card-body">
                                     <button className="card-button" onClick={() => window.location.href = 'cart'}>Quick Add</button>
                                 </div>
@@ -43,7 +43,7 @@ function Landing() {
                         </div>
                         <div className="content">
                             <div className="card">
-                                <img src="images/bg1.jpg" className="card-image" alt='' />
+                                <img src="/images/bg1.jpg" className="card-image" alt='' />
                                 <div className="card-body">
                                     <button className="card-button" onClick={() => window.location.href = 'cart'}>Quick Add</button>
                                 </div>
@@ -52,7 +52,7 @@ function Landing() {
                         </div>
                         <div className="content">
                             <div className="card">
-                                <img src="images/bg2.jpg" className="card-image" alt='' />
+                                <img src="/images/bg2.jpg" className="card-image" alt='' />
                                 <div className="card-body">
                                     <button className="card-button" onClick={() => window.location.href = 'cart'}>Quick Add</button>
                                 </div>
@@ -61,7 +61,7 @@ function Landing() {
                         </div>
                         <div className="content">
                             <div className="card">
-                                <img src="images/bg1.jpg" className="card-image" alt='' />
+                                <img src="/images/bg1.jpg" className="card-image" alt='' />
                                 <div className="card-body">
                                     <button className="card-button" onClick={() => window.location.href = 'cart'}>Quick Add</button>
                                 </div>
