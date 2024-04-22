@@ -1,5 +1,8 @@
 import React from 'react'
 import './Product.css';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
 
 function Specific() {
     return (
@@ -7,16 +10,40 @@ function Specific() {
             <header>
                 <p>BUY 1 GET FREE 1 !!</p>
             </header>
-            <div className="navbar">
-                <a href="/"><img src="images/bg.png" className="logo" /></a>
-                <p>GB Clothings</p>
-                <ul>
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="/">ABOUT</a></li>
-                    <li><a href="/">ACCOUNT</a></li>
-                    <li><a href="/">CART</a></li>
-                </ul>
-            </div>
+            <Navbar collapseOnSelect expand="lg" className="bg-secondary" style={{display:'flex',position:'absolute',margin:'0',top:'39px',height:'auto',alignItems:'center',padding:'0'}}>
+                        <Navbar.Brand href="#home" style={{color:'black'}}>
+                            <img src='Images/bg.png' style={{height:'50px',borderRadius:'25px',marginRight:'10px'}}/>
+                            GB Clothing
+                        </Navbar.Brand>
+                        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                        <Navbar.Collapse id="responsive-navbar-nav">
+                            <Nav className="me-auto">
+                                <Nav.Link href="allproduct" style={{color:'black',fontSize:'18px'}}>
+                                    Shop
+                                </Nav.Link>
+                                <NavDropdown title="Category" id="collapsible-nav-dropdown">
+                                    <NavDropdown.Item href="/">
+                                        Oversized Tshirt
+                                    </NavDropdown.Item>
+                                    <NavDropdown.Item href="/">
+                                        Roundneck Tshirt
+                                    </NavDropdown.Item>
+                                    <NavDropdown.Item href="/">
+                                        Polo Tshirt
+                                    </NavDropdown.Item>
+                                    <NavDropdown.Item href="/">
+                                        Sweartshirt
+                                    </NavDropdown.Item>
+                                </NavDropdown>
+                                <Nav.Link href="/" style={{color:'black',fontSize:'18px'}}>
+                                    About
+                                </Nav.Link>
+                                <Nav.Link href="/" style={{color:'black',fontSize:'18px'}}>
+                                    Cart
+                                </Nav.Link>
+                            </Nav>
+                        </Navbar.Collapse>
+                </Navbar>
             <div className="product">
                 <div className="image">
                     <img src="images/bg1.jpg" />
