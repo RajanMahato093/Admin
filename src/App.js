@@ -11,6 +11,8 @@ import Update from './Update'
 import AllProducts from './AllProducts';
 import Landing from './Landing';
 import Login from './Login';
+import Cookie from './Cookie';
+import Specific from './Specific';
 
 function App() {
 
@@ -27,8 +29,10 @@ function App() {
       <Route path='view' element={<View/>}></Route>
       <Route path='update' element={<Update/>}></Route>
       <Route path='admin' element={<Admin/>}></Route>
+      <Route path='cookie' element={<Cookie/>}></Route>
       <Route path='addProduct' element={<AddProduct/>}></Route>
       <Route path='allproduct' element={<AllProducts/>}></Route>
+      <Route path='specific' element={<Specific/>}></Route>
     </Routes>
     </BrowserRouter>
     </>

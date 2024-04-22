@@ -1,9 +1,12 @@
 import React, { useState } from 'react';
+import Cookies from "universal-cookie";
 import './Styles.css';
 import freq from './Fetchreq';
 
 // LoginForm Component
 const LoginForm = () => {
+    const cookies = new Cookies();
+    console.log(cookies.get("authorization"))
     const handleLogin = async (e) => {
         let Lemail, Lpassword;
         e.preventDefault();
