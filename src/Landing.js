@@ -16,7 +16,7 @@ function Landing() {
                     <p>5% off on prepaid orders!</p>
                 </header>
                 <div className="navbar">
-                    <a href="/"><img src="images/bg.png" className="logo" alt='' /></a>
+                    <a href="/"><img src="/Images/bg.png" className="logo" alt='' /></a>
                     <p>GB Clothings</p>
                     <ul>
                         <li><a href="allproduct">MEN</a></li>
@@ -27,14 +27,14 @@ function Landing() {
                     </ul>
                 </div>
                 <div className="background">
-                    <img src='/images/bg.png' className="cover" alt='' />
+                    <img src='/Images/bg.png' className="cover" alt='' />
                 </div>
                 <div className="categories">
                     <h2 className="fc">FEATURED COLLECTION</h2>
                     <div className="card-slider">
                         <div className="content">
                             <div className="card">
-                                <img src="/images/bg2.jpg" className="card-image" alt='' />
+                                <img src="/Images/bg2.jpg" className="card-image" alt='' />
                                 <div className="card-body">
                                     <button className="card-button" onClick={() => window.location.href = 'cart'}>Quick Add</button>
                                 </div>
@@ -43,7 +43,7 @@ function Landing() {
                         </div>
                         <div className="content">
                             <div className="card">
-                                <img src="/images/bg1.jpg" className="card-image" alt='' />
+                                <img src="/Images/bg1.jpg" className="card-image" alt='' />
                                 <div className="card-body">
                                     <button className="card-button" onClick={() => window.location.href = 'cart'}>Quick Add</button>
                                 </div>
@@ -52,7 +52,7 @@ function Landing() {
                         </div>
                         <div className="content">
                             <div className="card">
-                                <img src="/images/bg2.jpg" className="card-image" alt='' />
+                                <img src="/Images/bg2.jpg" className="card-image" alt='' />
                                 <div className="card-body">
                                     <button className="card-button" onClick={() => window.location.href = 'cart'}>Quick Add</button>
                                 </div>
@@ -61,7 +61,7 @@ function Landing() {
                         </div>
                         <div className="content">
                             <div className="card">
-                                <img src="/images/bg1.jpg" className="card-image" alt='' />
+                                <img src="/Images/bg1.jpg" className="card-image" alt='' />
                                 <div className="card-body">
                                     <button className="card-button" onClick={() => window.location.href = 'cart'}>Quick Add</button>
                                 </div>
@@ -80,25 +80,25 @@ function Landing() {
                     <div className="new">
                         <div className="content">
                             <div className="cards">
-                                <img src="images/bg4.jpg" className="cards-image" onClick={() => window.location.href = 'product'} alt='' />
+                                <img src="/Images/bg4.jpg" className="cards-image" onClick={() => window.location.href = 'product'} alt='' />
                             </div>
                             <h3>Rs.699</h3>
                         </div>
                         <div className="content">
                             <div className="cards">
-                                <img src="images/bg3.jpg" className="cards-image" onClick={() => window.location.href = 'product'} alt='' />
+                                <img src="/Images/bg3.jpg" className="cards-image" onClick={() => window.location.href = 'product'} alt='' />
                             </div>
                             <h3>Rs.699</h3>
                         </div>
                         <div className="content">
                             <div className="cards">
-                                <img src="images/bg5.jpg" className="cards-image" onClick={() => window.location.href = 'product'} alt='' />
+                                <img src="/Images/bg5.jpg" className="cards-image" onClick={() => window.location.href = 'product'} alt='' />
                             </div>
                             <h3>Rs.649</h3>
                         </div>
                         <div className="content">
                             <div className="cards">
-                                <img src="images/bg6.jpg" className="cards-image" onClick={() => window.location.href = 'product'} alt='' />
+                                <img src="/Images/bg6.jpg" className="cards-image" onClick={() => window.location.href = 'product'} alt='' />
                             </div>
                             <h3>Rs.649</h3>
                         </div>
@@ -109,25 +109,25 @@ function Landing() {
                     <div className="all-items">
                         <div className="content">
                             <div className="all">
-                                <img src="images/bg1.jpg" className="all-image" onClick={() => window.location.href = 'product'} alt='' />
+                                <img src="/Images/bg1.jpg" className="all-image" onClick={() => window.location.href = 'product'} alt='' />
                                 <button>Sweartshirt</button>
                             </div>
                         </div>
                         <div className="content">
                             <div className="all">
-                                <img src="images/bg3.jpg" className="all-image" onClick={() => window.location.href = 'product'} alt='' />
+                                <img src="/Images/bg3.jpg" className="all-image" onClick={() => window.location.href = 'product'} alt='' />
                                 <button>Round Neck T-Shirt</button>
                             </div>
                         </div>
                         <div className="content">
                             <div className="all">
-                                <img src="images/bg14.jpg" className="all-image" onClick={() => window.location.href = 'product'} alt='' />
+                                <img src="/Images/bg14.jpg" className="all-image" onClick={() => window.location.href = 'product'} alt='' />
                                 <button>Polo T-Shirt</button>
                             </div>
                         </div>
                         <div className="content">
                             <div className="all">
-                                <img src="images/DSC07272.jpg" className="all-image" onClick={() => window.location.href = 'product'} alt='' />
+                                <img src="/Images/DSC07272.jpg" className="all-image" onClick={() => window.location.href = 'product'} alt='' />
                                 <button>Unisex T-shirt</button>
                             </div>
                         </div>
