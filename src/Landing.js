@@ -27,7 +27,7 @@ function Landing() {
                     </ul>
                 </div>
                 <div className="background">
-                    <img src="./images/bg.png" className="cover" alt='' />
+                    <img src="../images/bg.png" className="cover" alt='' />
                 </div>
                 <div className="categories">
                     <h2 className="fc">FEATURED COLLECTION</h2>
