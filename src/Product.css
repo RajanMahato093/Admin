@@ -90,7 +90,7 @@ body {
   }
   
   .cover {
-    height: 300px;
+    height: 400px;
   }
   
   .categories {
@@ -107,11 +107,11 @@ body {
   }
   
   .card-slider {
-    height: 100%;
+    height: 400px;
     width: 100%;
     display: flex;
     overflow-x: scroll;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-direction: row;
   }
   .card-slider::-webkit-scrollbar{
@@ -169,7 +169,7 @@ body {
   }
   
   .item{
-    height: 300px;
+    height: 320px;
     width: 290px;
     display: flex;
     flex-direction: column;
@@ -192,7 +192,7 @@ body {
     background: #000;
   }
   .new-arrival{
-    height: 580px;
+    height: 560px;
     width: 100%;
     background: #ffffff;
     display: flex;
@@ -244,7 +244,7 @@ body {
     width: 150px;
     background-color: rgb(199, 196, 196);
     position: absolute;
-    top:1100px; 
+    top:1060px; 
   }
   .Unisex{
     height: 100%;
@@ -252,13 +252,14 @@ body {
     background: #e9e9e9;
     display: flex;
     flex-direction: column;
+    align-items: center;
     padding-bottom: 10px;
   }
   .Unisex p{
     font-size: 26px;
     display: flex;
     position: relative;
-    margin-top: 50px;
+    margin-top: 30px;
     align-self: center;
   }
   .btn{
@@ -323,7 +324,7 @@ body {
   }
   .all-items{
     display: flex;
-    height: 100%;
+    height: auto;
     width: 100%;
     overflow-x: scroll;
     flex-direction: row;
@@ -333,12 +334,6 @@ body {
     display: none;
   }
   @media screen and (max-width: 650px) {
-    .all-items{
-      height: 600px;
-      width: 300px;
-      flex-direction: row;
-      overflow-y: scroll;
-    }
     .navbar{
       width: 100%;
     }
