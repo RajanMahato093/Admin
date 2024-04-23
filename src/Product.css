@@ -24,7 +24,7 @@ body {
   }
     
   .cover {
-    height: 350px;
+    height: 340px;
   }
   
   .navbar {
@@ -248,13 +248,24 @@ body {
     top:1060px; 
   }
   .Unisex{
-    height: 100%;
+    height: auto;
     width: 100%;
     background: #e9e9e9;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
+  }
+  .Unisex-product{
+    height: auto;
+    width: 100%;
+    background: #e9e9e9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    position: absolute;
+    top: 100px
   }
   .Unisex p{
     font-size: 26px;

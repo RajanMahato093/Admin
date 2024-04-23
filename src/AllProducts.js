@@ -43,8 +43,7 @@ function AllProducts() {
                             </Nav>
                         </Navbar.Collapse>
                 </Navbar>
-            <div class="Unisex">
-                <p>MENS & WOMENS COLLECTIONS</p>
+            <div class="Unisex-product">
                 <div className='section'>
                     <div class="all-items">
                         <div class="content">
