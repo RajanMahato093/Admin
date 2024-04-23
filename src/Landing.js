@@ -50,7 +50,7 @@ function Landing() {
                                 <Nav.Link href="/" style={{color:'black',fontSize:'18px'}}>
                                     About
                                 </Nav.Link>
-                                <Nav.Link href="/" style={{color:'black',fontSize:'18px'}}>
+                                <Nav.Link href="login" style={{color:'black',fontSize:'18px'}}>
                                     Profile
                                 </Nav.Link>
                             </Nav>

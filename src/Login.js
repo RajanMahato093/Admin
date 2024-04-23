@@ -108,14 +108,14 @@ const App = () => {
     
     
     return (
-        <div className='parent'>
-            <div className="container">
+        <div className='parent-div'>
+            <div className="container-div">
                 <Slider moveSlider={isSignup} />
-                <div className="btn-slider">
+                <div className="btn-slider-login">
                     <button className={!isSignup ? 'active' : ''} onClick={handleLoginClick}>Login</button>
                     <button className={isSignup ? 'active' : ''} onClick={handleSignupClick}>Signup</button>
                 </div>
-                <div className="form-section">
+                <div className="form-section-user">
                     {!isSignup ? <LoginForm /> : <SignupForm />}
                 </div>
             </div>
