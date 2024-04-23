@@ -27,9 +27,6 @@ function Landing() {
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                         <Navbar.Collapse id="responsive-navbar-nav">
                             <Nav className="me-auto">
-                                <Nav.Link href="allproduct" style={{color:'black',fontSize:'18px'}}>
-                                    Shop
-                                </Nav.Link>
                                 <NavDropdown title="Category" id="collapsible-nav-dropdown" style={{color:'black',fontSize:'18px'}}>
                                     <NavDropdown.Item href="/" >
                                         Oversized Tshirt
@@ -45,10 +42,16 @@ function Landing() {
                                     </NavDropdown.Item>
                                 </NavDropdown>
                                 <Nav.Link href="/" style={{color:'black',fontSize:'18px'}}>
+                                    Cart
+                                </Nav.Link>
+                                <Nav.Link href="/" style={{color:'black',fontSize:'18px'}}>
+                                    Favourite
+                                </Nav.Link>
+                                <Nav.Link href="/" style={{color:'black',fontSize:'18px'}}>
                                     About
                                 </Nav.Link>
                                 <Nav.Link href="/" style={{color:'black',fontSize:'18px'}}>
-                                    Cart
+                                    Profile
                                 </Nav.Link>
                             </Nav>
                         </Navbar.Collapse>

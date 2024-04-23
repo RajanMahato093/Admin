@@ -46,7 +46,7 @@ function Specific() {
                 </Navbar>
             <div className="product">
                 <div className="image">
-                    <img src="images/bg1.jpg" />
+                    <img src="/Images/bg1.jpg" />
                 </div>
                 <div className="details">
                     <h1>Luffy Gear 5th (Unisex)</h1>
