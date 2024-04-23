@@ -18,7 +18,7 @@ function Userprofile() {
         i4 = e.target.i4.value;
         i5 = e.target.i5.value;
         i6 = e.target.i6.value;
-        const formData = { 'n1': i1, 'n2': i2, 'n3': i3, 'n4': i4, 'n5': i5, 'i6': i6 }
+        const formData = { 'n1': i1, 'n2': i2, 'n4': i4, 'n5': i5, 'i6': i6 }
         console.log(formData);
         // try {
         //   const response = await fetch('', {

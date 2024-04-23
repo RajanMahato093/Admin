@@ -17,9 +17,9 @@ function Landing() {
             ) : (products.length)}
             <div>
                 <header>
-                    <p>5% off on prepaid orders!</p>
+                <marquee><span style={{marginRight:'40px'}}>🎉 5% off on prepaid orders</span><span style={{marginRight:'40px'}}>🎉 10% off on order above 999rs</span><span style={{marginRight:'40px'}}>🎉 20% off on order above 1999rs</span></marquee>
                 </header>
-                <Navbar collapseOnSelect expand="lg" className="bg-secondary" style={{display:'flex',position:'absolute',margin:'0',top:'39px',height:'auto',alignItems:'center',padding:'0'}}>
+                <Navbar collapseOnSelect expand="lg" className="bg-secondary" style={{display:'flex',position:'absolute',margin:'0',top:'30px',height:'auto',alignItems:'center',padding:'0'}}>
                         <Navbar.Brand href="#home" style={{color:'black'}}>
                             <img src='/Images/bg.png' style={{height:'50px',borderRadius:'25px',marginRight:'10px'}}/>
                             GB Clothing
