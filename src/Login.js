@@ -7,6 +7,7 @@ import freq from './Fetchreq';
 const LoginForm = () => {
     const cookies = new Cookies();
     console.log(cookies.get("authorization"))
+    const [message, setMessage] = useState("");
     const handleLogin = async (e) => {
         let Lemail, Lpassword;
         e.preventDefault();
@@ -17,18 +18,21 @@ const LoginForm = () => {
         const response = await freq("POST","login",formData)
         if (response.ok) {
             const responseData = await response.json();
+            console.log(responseData)
             if (responseData.status == "successful") {
                 cookies.set("token", responseData.token);
                 window.location.href = '/'
               }
               else if(responseData.status == "invalid"){
-                alert("please enter valid credentials");
+                let text = "Invalid Credentials";
+                setMessage(<div dangerouslySetInnerHTML={{ __html: text }} style={{display:'flex',color:'red',fontWeight:'bold'}}></div>);
               }
               else if (responseData.status == "unverified") {
-                alert("Please verify your Email");
+                let text = "verify your Email";
+                setMessage(<div dangerouslySetInnerHTML={{ __html: text }} style={{display:'flex',color:'brown',fontWeight:'bold'}}></div>);
               }
               else{
-                console.log(responseData)
+                // console.log(responseData)
               }
         }
         else {
@@ -42,6 +46,7 @@ const LoginForm = () => {
             <input type="password" className="password ele" placeholder="password" name='Lpassword' required/>
             <a href="forgotpass.html">Forgot Password ?</a>
             <button className="clkbtn">Login</button>
+            {message}
             </form>
         </div>
     );
@@ -49,6 +54,7 @@ const LoginForm = () => {
 
 // SignupForm Component
 const SignupForm = () => {
+    const [message, setMessage] = useState("");
     const handleSignup = async (e) => {
         let Sname, Semail, Spassword;
         e.preventDefault();
@@ -61,13 +67,16 @@ const SignupForm = () => {
         if (response.ok) {
             const responseData = await response.json();
             if (responseData.status == "successful") {
-                console.log("Successful")
+                let text = "Check your Email and Verify Account";
+                setMessage(<div dangerouslySetInnerHTML={{ __html: text }} style={{display:'flex',color:'green',fontWeight:'bold'}}></div>);
               }
               else if(responseData.status == "unavailable"){
-                console.log("Invalid")
+                let text = "Email already registered!";
+                setMessage(<div dangerouslySetInnerHTML={{ __html: text }} style={{display:'flex',color:'red',fontWeight:'bold'}}></div>);
               }
               else{
-                console.log(responseData)
+                let text = "An error occured <br> Try again after sometime";
+                setMessage(<div dangerouslySetInnerHTML={{ __html: text }} style={{display:'flex',color:'red',fontWeight:'bold'}}></div>);
               }
         }
         else {
@@ -82,6 +91,7 @@ const SignupForm = () => {
             <input type="password" className="password ele" placeholder="password" name='Spassword' />
             <input type="password" className="password ele" placeholder="Confirm password" name='Scpassword' />
             <button className="clkbtn">Signup</button>
+            {message}
             </form>
         </div>
     );

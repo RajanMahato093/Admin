@@ -1,0 +1,83 @@
+.body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+}
+
+.parent{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    gap: 10px;
+}
+
+.child{
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+}
+
+.c1{
+    width: 30%;
+    padding: 5px;
+}
+
+.c2{
+    width: 70%;
+    border: 1px solid;
+    border-radius: 12px;
+}
+.form{
+    display: flex;
+    position: absolute;
+    top: 100px;
+    height: 500px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.form form{
+    width: 80%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
+.button button{
+    padding: 4px 15px;
+    border-radius: 12px;
+    background-color: rgb(83, 81, 81);
+    border: none;
+    color: white;
+}
+.edit{
+    display: flex;
+    position: absolute;
+    top: 110px;
+    left: 0px
+}
+.logout{
+    display: flex;
+    position: absolute;
+    top: 460px;
+    right: 0;
+}
+.edit button{
+    padding: 4px 15px;
+    border-radius: 12px;
+    background-color: rgb(83, 81, 81);
+    border: none;
+    color: white;
+}
+.logout button{
+    padding: 4px 15px;
+    border-radius: 12px;
+    background-color: rgb(83, 81, 81);
+    border: none;
+    color: white;
+}
