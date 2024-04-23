@@ -15,6 +15,7 @@ import Cookie from './Cookie';
 import Specific from './Specific';
 import Cart from './Cart';
 import Userprofile from './Userprofile';
+import About from './About';
 
 function App() {
 
@@ -36,6 +37,7 @@ function App() {
       <Route path='allproduct' element={<AllProducts/>}></Route>
       <Route path='specific' element={<Specific/>}></Route>
       <Route path='cart' element={<Cart/>}></Route>
+      <Route path='about' element={<About/>}></Route>
       {/* <Route path='up' element={<Userprofile/>}></Route> */}
     </Routes>
     </BrowserRouter>

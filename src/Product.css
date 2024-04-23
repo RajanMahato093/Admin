@@ -240,17 +240,17 @@ body {
   .cards:hover .cards-image{
     transform: scale(1.1);
   }
-  .new-arrival .line{
+  .Unisex .line{
     height: 3px;
-    width: 150px;
-    background-color: rgb(199, 196, 196);
+    width: 210px;
+    background-color: rgb(146, 144, 144);
     position: absolute;
-    top:1060px; 
+    top:1090px; 
   }
   .Unisex{
     height: auto;
     width: 100%;
-    background: #e9e9e9;
+    background: white;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -434,4 +434,33 @@ body {
     height: 400px;
     justify-content: center;
     width: 100%;
+  }
+  .about{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    position: absolute;
+    top: 60px;
+  }
+  .contact{
+    background-color: #000;
+    color: white;
+    padding: 15px;
+    position: absolute;
+    top: 510px;
+  }
+  .about .line{
+    height: 2px;
+    background-color: white;
+    width: 300px;
+    position: absolute;
+    top: 50px;
+    margin-bottom: 5px;
+    display: flex;
+  }
+  .contact .line{
+    height: 2px;
+    position: absolute;
+    width: 300px;
+    background-color: white;
   }

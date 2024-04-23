@@ -66,7 +66,7 @@ function Landing() {
                             <div className="card">
                                 <img src="/Images/bg2.jpg" className="card-image" alt='' />
                                 <div className="card-body">
-                                    <button className="card-button" onClick={() => window.location.href = 'cart'}>Quick Add</button>
+                                    <button className="card-button" onClick={() => window.location.href = 'specific'}>Quick Add</button>
                                 </div>
                             </div>
                             <p>Rs.699</p>
@@ -75,7 +75,7 @@ function Landing() {
                             <div className="card">
                                 <img src="/Images/bg1.jpg" className="card-image" alt='' />
                                 <div className="card-body">
-                                    <button className="card-button" onClick={() => window.location.href = 'cart'}>Quick Add</button>
+                                    <button className="card-button" onClick={() => window.location.href = 'specific'}>Quick Add</button>
                                 </div>
                             </div>
                             <p>Rs.999</p>
@@ -84,7 +84,7 @@ function Landing() {
                             <div className="card">
                                 <img src="/Images/bg2.jpg" className="card-image" alt='' />
                                 <div className="card-body">
-                                    <button className="card-button" onClick={() => window.location.href = 'cart'}>Quick Add</button>
+                                    <button className="card-button" onClick={() => window.location.href = 'specific'}>Quick Add</button>
                                 </div>
                             </div>
                             <p>Rs.699</p>
@@ -93,77 +93,53 @@ function Landing() {
                             <div className="card">
                                 <img src="/Images/bg1.jpg" className="card-image" alt='' />
                                 <div className="card-body">
-                                    <button className="card-button" onClick={() => window.location.href = 'cart'}>Quick Add</button>
+                                    <button className="card-button" onClick={() => window.location.href = 'specific'}>Quick Add</button>
                                 </div>
                             </div>
                             <p>Rs.999</p>
                         </div>
                         <div className="item">
                             <div className="item"></div>
-                            <a href="collection"> SHOP ALL FEATURED COLLECTION </a>
-                        </div>
-                    </div>
-                </div>
-                <div className="new-arrival">
-                    <p>New Arrivals</p>
-                    <div className="line"></div>
-                    <div className="new">
-                        <div className="content">
-                            <div className="cards">
-                                <img src="/Images/bg4.jpg" className="cards-image" onClick={() => window.location.href = 'product'} alt='' />
-                            </div>
-                            <h3>Rs.699</h3>
-                        </div>
-                        <div className="content">
-                            <div className="cards">
-                                <img src="/Images/bg3.jpg" className="cards-image" onClick={() => window.location.href = 'product'} alt='' />
-                            </div>
-                            <h3>Rs.699</h3>
-                        </div>
-                        <div className="content">
-                            <div className="cards">
-                                <img src="/Images/bg5.jpg" className="cards-image" onClick={() => window.location.href = 'product'} alt='' />
-                            </div>
-                            <h3>Rs.649</h3>
-                        </div>
-                        <div className="content">
-                            <div className="cards">
-                                <img src="/Images/bg6.jpg" className="cards-image" onClick={() => window.location.href = 'product'} alt='' />
-                            </div>
-                            <h3>Rs.649</h3>
+                            <a href="/"> SHOP ALL FEATURED COLLECTION </a>
                         </div>
                     </div>
                 </div>
                 <div className="Unisex">
                     <p>Shop by Category</p>
+                    <div className="line"></div>
                     <div className="all-items">
                         <div className="content">
                             <div className="all">
-                                <img src="/Images/bg1.jpg" className="all-image" onClick={() => window.location.href = 'product'} alt='' />
+                                <img src="/Images/bg1.jpg" className="all-image" onClick={() => window.location.href = '/'} alt='' />
+                                <p style={{display:'flex',position:'absolute',bottom:'110px',fontSize:'20px',fontWeight:'bold'}}>Comming Soon</p>
                                 <button>Sweartshirt</button>
                             </div>
                         </div>
                         <div className="content">
                             <div className="all">
-                                <img src="/Images/bg3.jpg" className="all-image" onClick={() => window.location.href = 'product'} alt='' />
+                                <img src="/Images/bg3.jpg" className="all-image" onClick={() => window.location.href = '/'} alt='' />
+                                <p style={{display:'flex',position:'absolute',bottom:'110px',fontSize:'20px',fontWeight:'bold'}}>Comming Soon</p>
                                 <button>Round Neck T-Shirt</button>
                             </div>
                         </div>
                         <div className="content">
                             <div className="all">
-                                <img src="/Images/bg14.jpg" className="all-image" onClick={() => window.location.href = 'product'} alt='' />
+                                <img src="/Images/bg14.jpg" className="all-image" onClick={() => window.location.href = '/'} alt='' />
+                                <p style={{display:'flex',position:'absolute',bottom:'110px',fontSize:'20px',fontWeight:'bold'}}>Comming Soon</p>
                                 <button>Polo T-Shirt</button>
                             </div>
                         </div>
                         <div className="content">
                             <div className="all">
-                                <img src="/Images/DSC07272.jpg" className="all-image" onClick={() => window.location.href = 'product'} alt='' />
+                                <img src="/Images/DSC07272.jpg" className="all-image" onClick={() => window.location.href = '/'} alt='' />
+                                <p style={{display:'flex',position:'absolute',bottom:'110px',fontSize:'20px',fontWeight:'bold'}}>Comming Soon</p>
                                 <button>Unisex T-shirt</button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            
         </div>
     )
 }
