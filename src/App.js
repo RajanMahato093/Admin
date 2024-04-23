@@ -13,6 +13,7 @@ import Landing from './Landing';
 import Login from './Login';
 import Cookie from './Cookie';
 import Specific from './Specific';
+import Cart from './Cart';
 
 function App() {
 
@@ -33,6 +34,7 @@ function App() {
       <Route path='addProduct' element={<AddProduct/>}></Route>
       <Route path='allproduct' element={<AllProducts/>}></Route>
       <Route path='specific' element={<Specific/>}></Route>
+      <Route path='cart' element={<Cart/>}></Route>
     </Routes>
     </BrowserRouter>
     </>
