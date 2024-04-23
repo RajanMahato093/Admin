@@ -21,7 +21,7 @@ function Landing() {
                 </header>
                 <Navbar collapseOnSelect expand="lg" className="bg-secondary" style={{display:'flex',position:'absolute',margin:'0',top:'39px',height:'auto',alignItems:'center',padding:'0'}}>
                         <Navbar.Brand href="#home" style={{color:'black'}}>
-                            <img src='Images/bg.png' style={{height:'50px',borderRadius:'25px',marginRight:'10px'}}/>
+                            <img src='/Images/bg.png' style={{height:'50px',borderRadius:'25px',marginRight:'10px'}}/>
                             GB Clothing
                         </Navbar.Brand>
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -54,7 +54,7 @@ function Landing() {
                         </Navbar.Collapse>
                 </Navbar>
                 <div className="background">
-                    <img src='/Images/bg.png' className="cover" alt='' />
+                    <img src='/Images/GB_LOGO.png' className="cover" alt='' />
                 </div>
                 <div className="categories">
                     <h2 className="fc">FEATURED COLLECTION</h2>
