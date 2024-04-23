@@ -18,13 +18,14 @@ const LoginForm = () => {
         if (response.ok) {
             const responseData = await response.json();
             if (responseData.status == "successful") {
-                console.log("Successful")
+                cookies.set("token", responseData.token);
+                window.location.href = '/'
               }
               else if(responseData.status == "invalid"){
-                console.log("Invalid")
+                alert("please enter valid credentials");
               }
               else if (responseData.status == "unverified") {
-                console.log("Please verify your Email");
+                alert("Please verify your Email");
               }
               else{
                 console.log(responseData)
@@ -124,3 +125,6 @@ const App = () => {
 };
 
 export default App;
+
+
+
