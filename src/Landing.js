@@ -60,7 +60,7 @@ function Landing() {
                     <img src='/Images/GB_LOGO.png' className="cover" alt='' />
                 </div>
                 <div className="categories">
-                    <h2 className="fc">FEATURED COLLECTION</h2>
+                    <h2 className="fc">NEW AND FEATURED</h2>
                     <div className="card-slider">
                         <div className="content">
                             <div className="card">
