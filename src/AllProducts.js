@@ -9,9 +9,9 @@ function AllProducts() {
             <header>
                 <p>5% off on prepaid orders!</p>
             </header>
-            <Navbar collapseOnSelect expand="lg" className="bg-secondary" style={{display:'flex',position:'absolute',margin:'0',top:'39px',height:'auto',alignItems:'center',padding:'0'}}>
+            <Navbar collapseOnSelect expand="lg" className="bg-secondary" style={{display:'flex',position:'absolute',margin:'0',top:'39px',height:'auto',alignItems:'center',padding:'0',zIndex:'1'}}>
                         <Navbar.Brand href="#home" style={{color:'black'}}>
-                            <img src='Images/bg.png' style={{height:'50px',borderRadius:'25px',marginRight:'10px'}}/>
+                            <img src='Images/bg.png' style={{height:'50px',borderRadius:'25px',marginRight:'10px'}} alt=''/>
                             GB Clothing
                         </Navbar.Brand>
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -48,28 +48,28 @@ function AllProducts() {
                     <div class="all-items">
                         <div class="content">
                             <div class="all">
-                                <img src='/Images/bg4.jpg' class="all-image" onclick="location.href='cart.html'" />
+                                <img src='/Images/bg4.jpg' class="all-image" onclick="location.href='cart.html'" alt=''/>
                                 <p>oversized Tshirt</p>
                             </div>
                         </div>
                         <div class="content">
                             <div class="all">
-                                <img src="images/bg1.jpg" class="all-image" onclick="location.href='cart.html'" />
+                                <img src="images/bg1.jpg" class="all-image" onclick="location.href='cart.html'" alt=''/>
                             </div>
                         </div>
                         <div class="content">
                             <div class="all">
-                                <img src="images/bg3.jpg" class="all-image" onclick="location.href='cart.html'" />
+                                <img src="images/bg3.jpg" class="all-image" onclick="location.href='cart.html'" alt='' />
                             </div>
                         </div>
                         <div class="content">
                             <div class="all">
-                                <img src="images/bg5.jpg" class="all-image" onclick="location.href='cart.html'" />
+                                <img src="images/bg5.jpg" class="all-image" onclick="location.href='cart.html'" alt=''/>
                             </div>
                         </div>
                         <div class="content">
                             <div class="all">
-                                <img src="images/bg9.jpg" class="all-image" onclick="location.href='cart.html'" />
+                                <img src="images/bg9.jpg" class="all-image" onclick="location.href='cart.html'" alt=''/>
                             </div>
                         </div>
                     </div>
@@ -78,27 +78,27 @@ function AllProducts() {
                     <div class="all-items">
                         <div class="content">
                             <div class="all">
-                                <img src="images/bg10.jpg" class="all-image" onclick="location.href='cart.html'" />
+                                <img src="images/bg10.jpg" class="all-image" onclick="location.href='cart.html'" alt=''/>
                             </div>
                         </div>
                         <div class="content">
                             <div class="all">
-                                <img src="images/bg11.jpg" class="all-image" onclick="location.href='cart.html'" />
+                                <img src="images/bg11.jpg" class="all-image" onclick="location.href='cart.html'" alt=''/>
                             </div>
                         </div>
                         <div class="content">
                             <div class="all">
-                                <img src="images/bg12.jpg" class="all-image" onclick="location.href='cart.html'" />
+                                <img src="images/bg12.jpg" class="all-image" onclick="location.href='cart.html'" alt=''/>
                             </div>
                         </div>
                         <div class="content">
                             <div class="all">
-                                <img src="images/bg13.jpg" class="all-image" onclick="location.href='cart.html'" />
+                                <img src="images/bg13.jpg" class="all-image" onclick="location.href='cart.html'" alt=''/>
                             </div>
                         </div>
                         <div class="content">
                             <div class="all">
-                                <img src="images/bg14.jpg" class="all-image" onclick="location.href='cart.html'" />
+                                <img src="images/bg14.jpg" class="all-image" onclick="location.href='cart.html'" alt=''/>
                             </div>
                         </div>
                     </div>
